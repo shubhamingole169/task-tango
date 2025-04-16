@@ -1,18 +1,98 @@
-# TaskTango
+<h1 align="center">🕺 TaskTango</h1>
+<p align="center">A playful, category-based to-do app with drag-and-drop magic and motivational vibes ✨</p>
 
-TaskTango is a vibrant, frontend-only to-do list application built for the **Frontend UI Hackathon 2025**. It features category-based task management, drag-and-drop reordering, task completion animations, a motivational quote widget, and a playful, responsive design. Built with React (Vite), plain CSS, and JavaScript, it uses localStorage for data persistence and adheres to the hackathon's requirements for a functional, production-ready mini-app.
+<p align="center">
+  <img src="https://img.shields.io/badge/React-Vite-blue?logo=react" />
+  <img src="https://img.shields.io/badge/Drag--and--Drop-beautiful--dnd-orange" />
+  <img src="https://img.shields.io/badge/Confetti-Canvas--Confetti-red" />
+  <img src="https://img.shields.io/badge/Style-Plain%20CSS-yellow" />
+  <img src="https://img.shields.io/badge/Deployed-Vercel-black?logo=vercel" />
+</p>
 
-## Features
-- **Category Tabs**: Organize tasks into categories (Work, Personal, Shopping) with smooth tab transitions.
-- **Drag-and-Drop**: Reorder tasks within a category using react-beautiful-dnd with fluid animations.
-- **Task Form**: Add tasks with name, category, and optional due date, stored in localStorage.
-- **Completion Animations**: Animated checkmarks for completed tasks and confetti bursts (canvas-confetti) when a category is fully completed.
-- **Motivational Quote Widget**: Displays a random quote after task completion for an engaging user experience.
-- **Responsive Design**: Optimized for mobile (320px+), tablet (768px+), and desktop (1024px+) with CSS media queries.
-- **Accessibility**: ARIA labels, keyboard navigation, and high-contrast design for inclusivity.
+---
 
-## Setup Instructions
-1. Clone the repository:
+## 🚀 Live Demo
+
+👉 [TaskTango on Vercel](https://task-tango-ashy.vercel.app)
+
+---
+
+## ✨ Features
+
+- 🗂️ **Category Tabs** – Organize tasks by Work, Personal, Shopping
+- 🧩 **Drag-and-Drop Tasks** – Smooth, intuitive task reordering
+- ➕ **Smart Task Form** – Add tasks with category & optional due date
+- ✅ **Completion Animations** – Confetti 🎉 and animated checkmarks
+- 💬 **Motivational Quote Widget** – Get inspired when you finish your tasks
+- 📱 **Responsive Design** – Works on mobile, tablet, and desktop
+- ♿ **Accessibility** – Keyboard-friendly & high-contrast for all users
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework:** React (with Vite)
+- **Styling:** Plain CSS
+- **State:** useState, useEffect, localStorage
+- **Drag & Drop:** `react-beautiful-dnd`
+- **Fun Stuff:** `canvas-confetti` for celebration effects
+- **Routing:** None (SPA)
+- **Deployment:** [Vercel](https://vercel.com)
+
+---
+
+## 📁 Folder Structure
+
+```
+task-tango/
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/       # Reusable UI components
+│   ├── data/             # Quotes and mock data
+│   ├── styles/           # Plain CSS files
+│   ├── App.jsx
+│   └── main.jsx
+├── .gitignore
+├── package.json
+├── README.md
+└── vite.config.js
+```
+
+---
+
+## ⚙️ Getting Started
+
+1. **Clone the repo**
    ```bash
-   git clone https://github.com/your-username/task-tango.git
+   git clone https://github.com/shubhamingole169/task-tango.git
    cd task-tango
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Start the dev server**
+   ```bash
+   npm run dev
+   ```
+
+4. **Build for production**
+   ```bash
+   npm run build
+   ```
+
+---
+
+## 🌍 Deployment
+
+TaskTango is deployed on **Vercel**  
+🔗 [https://task-tango-ashy.vercel.app](https://task-tango-ashy.vercel.app)
+
+To deploy your own version:
+- Push to GitHub
+- Import the repo to [Vercel](https://vercel.com)
+- Done! 🚀
+
