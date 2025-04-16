@@ -1,12 +1,18 @@
-# React + Vite
+# TaskTango
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+TaskTango is a vibrant, frontend-only to-do list application built for the **Frontend UI Hackathon 2025**. It features category-based task management, drag-and-drop reordering, task completion animations, a motivational quote widget, and a playful, responsive design. Built with React (Vite), plain CSS, and JavaScript, it uses localStorage for data persistence and adheres to the hackathon's requirements for a functional, production-ready mini-app.
 
-Currently, two official plugins are available:
+## Features
+- **Category Tabs**: Organize tasks into categories (Work, Personal, Shopping) with smooth tab transitions.
+- **Drag-and-Drop**: Reorder tasks within a category using react-beautiful-dnd with fluid animations.
+- **Task Form**: Add tasks with name, category, and optional due date, stored in localStorage.
+- **Completion Animations**: Animated checkmarks for completed tasks and confetti bursts (canvas-confetti) when a category is fully completed.
+- **Motivational Quote Widget**: Displays a random quote after task completion for an engaging user experience.
+- **Responsive Design**: Optimized for mobile (320px+), tablet (768px+), and desktop (1024px+) with CSS media queries.
+- **Accessibility**: ARIA labels, keyboard navigation, and high-contrast design for inclusivity.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Setup Instructions
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/task-tango.git
+   cd task-tango
